@@ -1,0 +1,43 @@
+{
+  "chome": {
+      "createWallet": "创建钱包",
+      "importWallet": "导入钱包",
+      "create_w_name":"创建钱包昵称",
+      "enter_name":"输入钱包昵称",
+      "enter_pwd":"输入钱包密码",
+      "enter_repwd":"再次输入钱包密码",
+      "create":"创建",   
+      "backup":"备份助记词",
+      "next":"下一步",
+      "copy":"复制",
+      "warn":"风险提示",
+      "mn_warn_tip":"复制助记词存在风险，剪切板容易被第三方应用监控或滥用",
+      "stick_copy":"仍要复制",
+      "cancel_copy":"不复制了",
+      "mn_valid":"按照给定的序号填入对应的助记词",
+      "confirm_btn":"确定",
+      "create_succ":"创建成功",
+      "import_mnemonic":"导入助记词",
+      "import_please":"请导入助记词来恢复钱包",
+      "wallet_name":"钱包昵称"
+  },
+  "mhome":{
+    "assets":"资产",
+    "come":"即将上线",
+    "s_token":"选择代币",
+    "copy_addr":"复制地址",
+    "pickup_num":"提币数量",
+    "can_pickup":"可提币",
+    "enter_amount":"输入金额",
+    "fee":"手续费",
+    "act_received":"实际到账",
+    "addr":"地址",
+    "enter_addr":"输入地址",
+    "confirm":"确认",
+    "account_manage":"账号管理",
+    "addr_book":"地址薄",
+    "lock_time":"自动锁定时间",
+    "edit_pwd":"修改密码",
+    "about_us":"关于我们"
+  }
+}

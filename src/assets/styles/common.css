@@ -1,0 +1,124 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #121212;
+}
+
+body {
+  width: 375px;
+  height: 600px;
+}
+
+#root {
+  height: 100%;
+}
+
+.content-wrapper {
+  /* max-width: 375px; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.common-page {
+  height: 100%;
+  color: #fff;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 44px;
+  cursor: pointer;
+}
+
+.comm-btn__fill {
+  background: #1BB16A;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #1BB16A;
+}
+
+.comm-btn__fill:hover {
+  background: #138B52;
+}
+
+.comm-btn__rect {
+  border-radius: 4px;
+  background: none;
+  color: #1BB16A;
+  border: 1px solid #1BB16A;
+}
+
+.comm-btn__rect:hover {
+  background: #0F1F15;
+}
+
+.upper-lower-structure {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-lower-structure .lower-structure {
+  height: calc(100% - 80px);
+  overflow-y: hidden;
+}
+
+.upper-lower-structure .sturcture-center {
+  height: calc(100% - 160px);
+  overflow-y: hidden;
+}
+
+.lower-structure-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.structure-container {
+  height: 100%;
+}
+
+.container-cc {
+  height: 100%;
+  position: relative;
+}
+
+.medium-scroll-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  top: 238px;
+  overflow: auto;
+}
+
+.medium-scroll-wrapper.medium-activity {
+  top: 51px;
+}
+
+.loading-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.loading-wrap.extr {
+  bottom: 52px;
+}
+
+.loading-wrap .mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.loading-wrap .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
